@@ -8,7 +8,7 @@ $title-color: hsl(0, 0%, 9%);
 @import "~bulma/bulma.sass";
 
 body {
-    background-image: linear-gradient(20deg, #4f4a43, #8da4f2);
+    background-image: linear-gradient(20deg, #2b3136, #8da4f2);
     
     // gradient test 
     // background: linear-gradient(20deg, rgba(18, 12, 85, 0.05) 0%, rgba(108, 124, 167, 0.85) 20%, rgba(86, 114, 128, 0.75) 65%, rgba(0, 212, 255, 0.05) 100%),
@@ -105,6 +105,11 @@ h2{
 .container {
     // font-weight: bold;
 }
+// background color for buttons
 nav.navbar {
     background-color: rgba(216, 220, 255, 0)
+}
+// for the input/output text
+.subtitle {
+    color: black;
 }
