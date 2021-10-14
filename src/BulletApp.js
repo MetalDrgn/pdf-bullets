@@ -76,6 +76,7 @@ function BulletApp() {
     }
   }, []);
 
+  // Create new dict for abbrData and replace it on change.
   useEffect(() => {
     const newAbbrDict = {};
 

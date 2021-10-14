@@ -27,6 +27,7 @@
     "draft-js": "^0.11.7",
     "handsontable": "^8.2.0",
     "immutability-helper": "^3.1.1",
+    "jshint": "^2.12.0",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-contenteditable": "^3.3.5",
@@ -34,6 +35,7 @@
     "react-scripts": "^4.0.1",
     "react-table": "^7.6.2",
     "sanitize-html": "^2.1.2",
+    "typescript": "^4.2.3",
     "webfontloader": "^1.6.28",
     "xlsx": "^0.16.9"
   },

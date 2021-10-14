@@ -3,9 +3,18 @@
 
 
 // If need, change your variables before importing Bulma
-// $title-color: #ff0000;
+$title-color: hsl(0, 0%, 9%);
 
 @import "~bulma/bulma.sass";
+
+body {
+    background-image: radial-gradient(circle, #15181a20 50%, #5f9bf510 75%, #22242c10 900%),
+    linear-gradient(20deg, #2b3136, #8da4f2);
+    
+    // gradient test 
+    // background: linear-gradient(20deg, rgba(18, 12, 85, 0.05) 0%, rgba(108, 124, 167, 0.85) 20%, rgba(86, 114, 128, 0.75) 65%, rgba(0, 212, 255, 0.05) 100%),
+    // linear-gradient(90deg, rgb(62, 70, 88) 0%, rgb(131, 137, 156) 35%, rgb(156, 169, 172) 100%);
+}
 
 textarea.bullets{
 
@@ -20,6 +29,8 @@ textarea.bullets{
 .border{
     width:fit-content;
     border: solid black 1.1px;
+    background-image: linear-gradient(10deg, #8ca2cc, rgb(142, 169, 219));
+  
 }
 .bulletContainer{
     margin:10px 10px 0px 0px;
@@ -91,4 +102,15 @@ h2{
 }
 #footer div{
     display:block
+}
+.container {
+    // font-weight: bold;
+}
+// background color for buttons
+nav.navbar {
+    background-color: rgba(216, 220, 255, 0)
+}
+// for the input/output text
+.subtitle {
+    color: black;
 }
