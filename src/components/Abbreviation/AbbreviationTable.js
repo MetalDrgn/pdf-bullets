@@ -1,6 +1,10 @@
 import { useRef } from "react";
 import { HotTable } from "@handsontable/react";
 import "handsontable/dist/handsontable.full.css";
+import { registerAllModules } from "handsontable/registry";
+
+//register HandonTable modules
+registerAllModules();
 
 const tableSettings = {
   columns: [
