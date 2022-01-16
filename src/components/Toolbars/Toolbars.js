@@ -161,7 +161,7 @@ class OutputTools extends PureComponent {
             <span className="icon is-right">mm</span>
           </div>
           <div className="control buttons has-addons">
-            <a
+            <button
               className={
                 "button is-primary " +
                 (this.props.width === widthAWD ? "" : "is-outlined")
@@ -169,8 +169,8 @@ class OutputTools extends PureComponent {
               onClick={this.props.onWidthUpdate(widthAWD)}
             >
               AWD
-            </a>
-            <a
+            </button>
+            <button
               className={
                 "button is-success " +
                 (this.props.width === widthEPR ? "" : "is-outlined")
@@ -178,8 +178,8 @@ class OutputTools extends PureComponent {
               onClick={this.props.onWidthUpdate(widthEPR)}
             >
               EPR
-            </a>
-            <a
+            </button>
+            <button
               className={
                 "button is-link " +
                 (this.props.width === widthOPR ? "" : "is-outlined")
@@ -187,11 +187,11 @@ class OutputTools extends PureComponent {
               onClick={this.props.onWidthUpdate(widthOPR)}
             >
               OPR
-            </a>
+            </button>
           </div>
         </div>
 
-        <a
+        <button
           className={
             "control button is-dark" +
             (this.props.enableOptim ? "" : "is-outlined")
@@ -200,7 +200,7 @@ class OutputTools extends PureComponent {
           id="enableOptim"
         >
           Auto-Space
-        </a>
+        </button>
       </div>
     );
   }
@@ -298,12 +298,12 @@ class SaveTools extends PureComponent {
           </div>
         </div>
 
-        <a
+        <button
           href="?#"
           style={{ display: "none" }}
           download="settings.json"
           ref={this.exportRef}
-        ></a>
+        ></button>
       </div>
     );
   }
@@ -324,7 +324,7 @@ class Logo extends PureComponent {
 class ThesaurusTools extends PureComponent {
   render() {
     return (
-      <a
+      <button
         className="button"
         onClick={this.props.onHide}
         aria-haspopup="true"
@@ -334,7 +334,7 @@ class ThesaurusTools extends PureComponent {
         <span className="icon">
           <FontAwesomeIcon icon={faAngleDown} />
         </span>
-      </a>
+      </button>
     );
   }
 }
