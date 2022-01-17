@@ -149,7 +149,7 @@ class OutputTools extends PureComponent {
         <div className="control field has-addons">
           <div className="control has-icons-right">
             <input
-              className="input"
+              className="input button"
               id="widthInput"
               type="number"
               min="100"
