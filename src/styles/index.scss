@@ -3,7 +3,7 @@
 
 
 // If need, change your variables before importing Bulma
-$title-color: hsl(0, 0%, 9%);
+// $title-color: hsl(0, 0%, 9%);
 
 @import "~bulma/bulma.sass";
 
@@ -71,6 +71,9 @@ input.htCheckboxRendererInput{
 }
 .logo{
     color: #0F0F0F;
+}
+.title {
+    color: #3852e6ec;
 }
 h1{
     font-family:monospace;
