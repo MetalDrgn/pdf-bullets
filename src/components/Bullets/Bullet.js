@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { optimize, renderBulletText } from "./utils";
 import { STATUS } from "../../const/const";
 
+// function with default props if not specified. Object input expected.
 function Bullet({
   text = "",
   widthPx = 500,

@@ -29,6 +29,7 @@ export const getRandomInt = (seed, max) => {
   );
 };
 
+// split sentence input into array of words by space characters
 export const tokenize = (sentence) => {
   return sentence.split(/[\s]+/);
 };
